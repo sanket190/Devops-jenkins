@@ -4,6 +4,7 @@ pipeline{
 	  stage('dev') {
 	  	steps{
 	  		sh 'make'
+			sh './main'
 	  	}
 	  }
 	}
